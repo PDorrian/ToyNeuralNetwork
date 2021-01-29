@@ -75,6 +75,7 @@ class Matrix:
                 print("{:8}".format(self.data[i][j]), end=" ")
             print("")
 
+    # Apply some function to each element in the matrix
     def map(self, func):
         for i in range(self.rows):
             for j in range(self.cols):
