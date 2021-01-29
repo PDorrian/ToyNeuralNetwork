@@ -4,7 +4,8 @@ This is a simple 2-layer ANN made from scratch in Python. It accepts any number 
 ## Demo
 By using the ``-v`` or ``--visualise`` argument, a visualisation of the network is rendered using Pygame.<br/>
 The application runs considerably slower when displaying the visualisation.
-![Visual Demonstration]()
+
+![Visual Demonstration](https://github.com/PDorrian/classification-neural-network/blob/master/demo.gif)
 
 ## Installing and Using the Program
 To install this application, simply clone the repository and install Pygame using the command line.
@@ -13,13 +14,13 @@ Once complete, simply run the application with the following command:
 ```python application.py -i <input file> -a <classification attribute>```
 
 ### Arguments
-Required Arguments
+#### Required Arguments
 | Argument | Description |
 |--------------|-----------------------------------------------|
 | -i, --input | Input file, CSV format required with headings. |
 | -a, --attribute | Heading of column used for classification. |
 
-Optional Arguments
+#### Optional Arguments
 | Argument | Description | Default Value |
 |----------|-------------|:-------------:|
 | -lr, --learningrate | Set the learning rate for backpropagation. | 5 |
